@@ -1,0 +1,34 @@
+body {
+    font-size:20px;  
+    font-weight: 100;
+}
+
+
+
+
+
+.first
+{
+    font-family: lobsterRegular;
+}
+.second
+{
+    font-family: "Courier New", Courier, monospace;
+    font-style: italic;
+
+}
+p.second{
+    font-weight: bold;
+    text-decoration:underline;
+}
+#third{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#fourth{
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+@font-face{
+    font-family: 'lobsterRegular';
+    src: url(fonts/lobster/lobster-regular.ttf);
+}

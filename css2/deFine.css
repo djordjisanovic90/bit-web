@@ -1,0 +1,10 @@
+.uu 
+{
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+.ls
+{
+    text-transform: lowercase;
+    text-decoration: line-through;
+}
