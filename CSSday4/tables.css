@@ -1,0 +1,23 @@
+#whole{
+margin-left: auto;
+margin-right: auto;
+border-collapse: collapse;
+text-align: center;
+width: 70%;
+}
+.header
+{
+    background-color: red;
+}
+.padding10 .td
+{
+    padding: 10px;
+}
+
+tr:nth-child(2n+1){
+    background-color: rgb(243, 243, 243);
+}
+
+table tr:hover{
+    background-color: orange;
+}
