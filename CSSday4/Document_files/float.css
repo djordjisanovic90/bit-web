@@ -1,0 +1,46 @@
+#nav {
+    background-color: 	 #990000;
+    height: 40px;
+    width: 750px;
+}
+
+a {
+   
+    padding-right: 10px;
+    margin-top:10px;
+    color: #FFF;
+    text-decoration: none;
+    
+    
+}
+
+#wrapper{
+    width: 750px;
+    margin: 0px auto;
+}
+#first{
+    float: left;
+}
+body{
+    clear: both;
+}
+
+ul{
+    background-color: rgb(233, 159, 0);
+    text-decoration: underline;
+    list-style-type: none;
+    float: right;
+    padding: 15px 10px 15px 20px;
+   
+
+}
+li{
+    
+    text-decoration: none;
+    border-bottom: solid 1px #000;
+}
+li a{
+    color:#000;
+    text-decoration: none;
+
+}
