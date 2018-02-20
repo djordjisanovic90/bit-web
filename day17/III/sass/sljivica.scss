@@ -1,0 +1,37 @@
+
+
+
+@mixin background-color($i){
+    @if $i == 1 {
+        color: orange;
+    }
+}
+
+p{
+  @for $i from 1 to 5{
+        &.class#{$i}{
+           font-size: 16px + 2px * ($i - 1);
+           @include background-color($i);
+        }
+    }
+}
+
+@function content-box($content-width, $padding-width, $border-width) {
+    @return $content-width + $padding-width + $border-width;
+}
+
+.novi {
+    box-sizing: border-box;
+    border: 1px solid black;
+    padding: 15px;
+    width: content-box(400px, 15px, 1px);
+}
+
+
+@function calculateColumnWidth($table-width,$n){
+    @return $table-width / $n;
+}
+    
+td {
+    width: calculateColumnWidth(900px,3);
+}

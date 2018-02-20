@@ -1,0 +1,10 @@
+.paragraph, #one, #two {
+  border: 2px solid black; }
+
+#one {
+  border-color: red; }
+
+#two {
+  border-color: blue; }
+
+/*# sourceMappingURL=page.css.map */

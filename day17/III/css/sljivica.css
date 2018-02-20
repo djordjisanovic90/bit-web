@@ -1,0 +1,20 @@
+p.class1 {
+  font-size: 16px;
+  color: orange; }
+p.class2 {
+  font-size: 18px; }
+p.class3 {
+  font-size: 20px; }
+p.class4 {
+  font-size: 22px; }
+
+.novi {
+  box-sizing: border-box;
+  border: 1px solid black;
+  padding: 15px;
+  width: 416px; }
+
+td {
+  width: 300px; }
+
+/*# sourceMappingURL=sljivica.css.map */

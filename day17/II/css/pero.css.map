@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAMA,CAAC;EACG,eAAe,EAPd,IAAI",
+"sources": ["../scss/pero.scss"],
+"names": [],
+"file": "pero.css"
+}

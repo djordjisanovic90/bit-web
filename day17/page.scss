@@ -1,0 +1,15 @@
+$color1: red;
+$color2: blue;
+$color3: green;
+
+.paragraph{
+    border: 2px solid black;
+}
+#one{
+    @extend .paragraph;
+    border-color: $color1;
+}
+#two{
+    @extend .paragraph;
+    border-color: $color2;
+}
