@@ -11,5 +11,8 @@ $(function () {
     //var div1 = $('<div>');
     $('img:first').before('<h1>Gallery</h1>');
 
+    for(i=0; i<arr.length; i++){
+
+    }
     //$(img).before('<div>');
 })

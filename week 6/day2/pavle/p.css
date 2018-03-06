@@ -1,0 +1,13 @@
+body {
+    background-image: url('field.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    height: 800px;
+}
+
+img {
+    width: 80px;
+    box-sizing: border-box;
+    position: absolute;
+}

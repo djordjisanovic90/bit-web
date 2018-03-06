@@ -1,0 +1,7 @@
+body{
+    background-image: url('field.png');
+    background-size: cover; 
+}
+#playa{
+    width: 200px;
+}
